@@ -1,0 +1,72 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: url(jungle.jpg);
+  background-size: cover;
+  top:0;
+  left:0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body{
+    color:white;
+    font-size: 200px;
+    top:0;
+    left:0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.topnav{
+  width:100vw;
+  height:200px;
+  text-align: center;
+  top:0;
+  left:0;
+  margin:0%;
+  background-image: linear-gradient(0, rgba(255,0,0,0), rgb(83, 168, 89));
+  position:absolute;
+  padding: 50px;
+  overflow:hidden;
+}
+.login{
+  font-size: 20px;
+  display: inline;
+  float:right;
+  padding: 30px 0px 0px 0px;
+}
+.jungle{
+  font-size: 50px;
+  display: inline;
+  float: left;
+  width:90vw;
+
+}
+.searchbar{
+  width:50vw;
+  font-size: 20px;
+  position:relative;
+}
+.content{
+  width: 80vw;
+  height: 70vh;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(83, 168, 89);
+  position:absolute;
+  transform: translate(10%, 25%);
+  color: rgb(83, 168, 89);
+}
+.circle{
+  height:200px;
+  width:200px;
+  background-color: rgb(83, 168, 89);
+  border-radius: 50%;
+  box-shadow: 0 0 70px 0 rgb(83, 168, 89);
+  filter: blur(10px);
+}
+.row{
+  display:inline-flex;
+  position: absolute;
+  padding-left: 17.5%;
+}
+h6{
+  font-size: 20px;
+}
